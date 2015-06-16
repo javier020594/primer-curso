@@ -18,6 +18,11 @@ public class JavaApplication1 {
 
         
         claseDOS cd1 = new claseDOS();
+        System.out.println("atributos claseDos "+cd1.otraCosa);
+        
+        ClaseTres ct1 = new ClaseTres();
+        System.out.println("atributos claseTres "+ct1.prot);
+        System.out.println("atributos claseTres "+ct1.j);
     }
 
 }
