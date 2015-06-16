@@ -1,5 +1,7 @@
 package javaapplication1;
 
+import newpackage.claseDOS;
+
 public class JavaApplication1 {
     
     private int contador = 0;
@@ -14,6 +16,8 @@ public class JavaApplication1 {
             System.out.println("imprimiendo el contador\n\n"+jpl.contador);
         }
 
+        
+        claseDOS cd1 = new claseDOS();
     }
 
 }
